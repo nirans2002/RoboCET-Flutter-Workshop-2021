@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <conio.h>
+void main()
+{
+int n,r,nr,x;
+long nf=1,rf=1,nrf=1,nCr;
+printf ("Given values of n and r: ");
+scanf("%d%d",&n,&r);
+for(x=1;x<=n;x++)
+   nf*=x;
+for (x=1;x<=(n-r);x++);
+   nrf*=x;
+ncr=nf/(rf*nrf);
+printf("Value of nCr=%d",nCr);
+getch();
+}
